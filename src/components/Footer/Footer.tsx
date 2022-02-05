@@ -26,8 +26,16 @@ export const Footer = () => {
         Redes sociales
       </StyledTypography>
       <div className={styles.SocialNetworks}>
-        {$SOCIAL_NETWORKS.map(({ Icon }, index) => (
-          <Icon className={styles.Icon} key={index}/>
+        {$SOCIAL_NETWORKS.map(({ Icon, link }, index) => (
+          <a
+            className={styles.IconContainer}
+            key={index}
+            href={link}
+            target="_blank"
+            rel="noreferrer"
+          >
+            <Icon className={styles.Icon} />
+          </a>
         ))}
       </div>
       <StyledDivider />

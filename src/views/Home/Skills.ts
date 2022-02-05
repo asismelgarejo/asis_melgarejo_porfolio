@@ -271,20 +271,6 @@ export const $SKILLS_BD: ISkill[] = [
     category: 1,
     description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
   },
-  {
-    id: 1,
-    name: "GitHub",
-    Icon: GitHubColorIcon,
-    category: 1,
-    description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
-  },
-  {
-    id: 1,
-    name: "Gitlab",
-    Icon: GitlabIcon,
-    category: 1,
-    description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
-  },
 ];
 
 export const $SKILLS_MOBILE: ISkill[] = [
@@ -309,6 +295,20 @@ export const $SKILLS_TOOLS: ISkill[] = [
     id: 1,
     name: "Git",
     Icon: GitIcon,
+    category: 1,
+    description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+  },
+  {
+    id: 1,
+    name: "GitHub",
+    Icon: GitHubColorIcon,
+    category: 1,
+    description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+  },
+  {
+    id: 1,
+    name: "Gitlab",
+    Icon: GitlabIcon,
     category: 1,
     description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
   },

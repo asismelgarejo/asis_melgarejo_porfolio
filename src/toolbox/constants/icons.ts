@@ -45,8 +45,8 @@ import { ReactComponent as DartIcon } from "../../assets/svg/dart_icon.svg";
 import { ReactComponent as NextJSIcon } from "../../assets/svg/nextjs_icon.svg";
 import { ReactComponent as LaravelIcon } from "../../assets/svg/laravel_icon.svg";
 import { ReactComponent as ExpressIcon } from "../../assets/svg/express_icon.svg";
-import { ReactComponent as PostmanIcon } from "../../assets/svg/express_icon.svg";
-import { ReactComponent as RestAPIIcon } from "../../assets/svg/express_icon.svg";
+import { ReactComponent as PostmanIcon } from "../../assets/svg/postman_icon.svg";
+import { ReactComponent as RestAPIIcon } from "../../assets/svg/rest_icon.svg";
 
 export {
   AngularIcon,
