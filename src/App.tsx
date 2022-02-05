@@ -9,11 +9,11 @@ function App() {
   return (
     <div>
       ASIS
-    <AllContext>
+    {/* <AllContext>
       <AllTheme>
         <AllRoutes />
       </AllTheme>
-    </AllContext>
+    </AllContext> */}
     </div>
   );
 }
