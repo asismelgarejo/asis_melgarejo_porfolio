@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/asis_melgarejo_porfolio/static/css/main.66fb1dd8.css",
-    "main.js": "/asis_melgarejo_porfolio/static/js/main.d4a8e7d2.js",
+    "main.js": "/asis_melgarejo_porfolio/static/js/main.d9e1b516.js",
     "static/media/profile.jpg": "/asis_melgarejo_porfolio/static/media/profile.39306e6e764f3e1f4508.jpg",
     "static/media/cms_formdata.png": "/asis_melgarejo_porfolio/static/media/cms_formdata.580482a8e68192e2aadc.png",
     "static/media/gitlab_icon.svg": "/asis_melgarejo_porfolio/static/media/gitlab_icon.640338841d983271520aa06b42a764e8.svg",
@@ -29,9 +29,9 @@
     "static/media/github_icon.svg": "/asis_melgarejo_porfolio/static/media/github_icon.a61b960f2ce17e7b773b7e1013673b9f.svg",
     "static/media/php_icon.svg": "/asis_melgarejo_porfolio/static/media/php_icon.76bcef232642ed5693bd3bc7f5c70f9b.svg",
     "static/media/python_icon.svg": "/asis_melgarejo_porfolio/static/media/python_icon.58d5a0a7b305a106917669f9abcc4f3d.svg",
+    "index.html": "/asis_melgarejo_porfolio/index.html",
     "static/media/springboot_icon.svg": "/asis_melgarejo_porfolio/static/media/springboot_icon.001ce08ab2795e3ff693ce288b126804.svg",
     "static/media/mongodb_icon.svg": "/asis_melgarejo_porfolio/static/media/mongodb_icon.389aa18a9b02da23f02b77ddfc9d12be.svg",
-    "index.html": "/asis_melgarejo_porfolio/index.html",
     "static/media/flutter_icon.svg": "/asis_melgarejo_porfolio/static/media/flutter_icon.c0c4fc13c51655957449e765cbf038c3.svg",
     "static/media/js_icon.svg": "/asis_melgarejo_porfolio/static/media/js_icon.fabe1e9b193a5b86c7467a70ba5d736a.svg",
     "static/media/instagram_icon.svg": "/asis_melgarejo_porfolio/static/media/instagram_icon.b6beacd904f86ba6e0cb57f5b4e24eb8.svg",
@@ -52,10 +52,10 @@
     "static/media/terraform_icon.svg": "/asis_melgarejo_porfolio/static/media/terraform_icon.e06c5d2955b7dce633d07a55730375d3.svg",
     "static/media/vue_icon.svg": "/asis_melgarejo_porfolio/static/media/vue_icon.9799d923aadf448170eb5c50cb25f010.svg",
     "main.66fb1dd8.css.map": "/asis_melgarejo_porfolio/static/css/main.66fb1dd8.css.map",
-    "main.d4a8e7d2.js.map": "/asis_melgarejo_porfolio/static/js/main.d4a8e7d2.js.map"
+    "main.d9e1b516.js.map": "/asis_melgarejo_porfolio/static/js/main.d9e1b516.js.map"
   },
   "entrypoints": [
     "static/css/main.66fb1dd8.css",
-    "static/js/main.d4a8e7d2.js"
+    "static/js/main.d9e1b516.js"
   ]
 }
