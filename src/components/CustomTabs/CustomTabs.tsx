@@ -22,13 +22,9 @@ export const CustomTabs: React.FC<CustomTabsProps> = (props) => {
         sx={{ borderBottom: 1, borderColor: "divider" }}
         className={styles.ContainerTabs}
       >
-        <Tabs
-          value={value}
-          onChange={handleChange}
-          aria-label="basic tabs example"
-        >
+        <Tabs value={value} onChange={handleChange} variant="scrollable">
           {props.tabs.map((tab, index) => (
-            <Tab label={tab} key={index}/>
+            <Tab label={tab} key={index} />
           ))}
         </Tabs>
       </Box>

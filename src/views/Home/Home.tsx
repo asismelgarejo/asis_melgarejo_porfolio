@@ -5,16 +5,29 @@ import CardMedia from "@mui/material/CardMedia";
 import Typography from "@mui/material/Typography";
 import Paper from "@mui/material/Paper";
 import { CustomCard } from "../../components/CustomCard";
-import { $SKILLS } from "./Skills";
-import MainImage from "./main_img1.jpg";
+import {
+  $SKILLS_FRONTEND,
+  $SKILLS_BACKEND,
+  $SKILLS_DEVOPS,
+  $SKILLS_BD,
+  $SKILLS_MOBILE,
+  $SKILLS_TOOLS,
+  $SKILLS_DESIGN,
+} from "./Skills";
+import MainImage from "../../assets/profile.jpg";
 import CMSFormData from "../../assets/cms_formdata.png";
 import { CustomPaper } from "./../../components/CustomPaper";
 import { CustomTabs } from "./../../components/CustomTabs";
 import { DialogImage, SnackRef } from "./../../components/DialogImage";
+import { useWindowsSize } from "../../toolbox/hooks/useWindowsSize";
 
 import styles from "./Home.module.sass";
 
 export const CardHome = () => {
+  const { width } = useWindowsSize();
+
+  const isMobile = 600 > width;
+
   return (
     <Paper className={styles.CardHome} id="home">
       <CardMedia
@@ -22,13 +35,19 @@ export const CardHome = () => {
         height="500"
         image={MainImage}
         alt="green iguana"
-        sx={{ width: "500px" }}
+        sx={{ width: isMobile ? "100%" : "500px" }}
+        className={styles.CardMedia}
       />
       <CardContent className={styles.CardContent}>
-        <Typography gutterBottom variant="h2" component="div">
+        <Typography
+          gutterBottom
+          variant={isMobile ? "h5" : "h2"}
+          component="div"
+          // className={styles.CardTitle}
+        >
           Hi, I'm Asis and I'm a Fullstack Junior Developer
         </Typography>
-        <Typography variant="h5" component={"p"}>
+        <Typography component={"p"} variant={isMobile ? "h6" : "h5"}>
           Tengo más de 1 año de experiencia laboral en el entorno empresarial
           desarrollando aplicaciones webs y móviles .
         </Typography>
@@ -91,13 +110,17 @@ export const Home = () => {
           align="center"
           id="work"
         >
-          Conoce algunos de mis trabajos
+          Mis trabajos
         </Typography>
         <br />
         <br />
         <div className={styles.ContainerCards} key={1}>
           {$PROJECTS.map((project, index) => (
-            <CustomCard {...project}  key={index} handleClick={handleClickImage} />
+            <CustomCard
+              {...project}
+              key={index}
+              handleClick={handleClickImage}
+            />
           ))}
         </div>
         <DialogImage ref={dialogImageRef} />
@@ -109,7 +132,7 @@ export const Home = () => {
           color="text.secondary"
           align="center"
         >
-          Conoce mis habilidades
+          Mis habilidades
         </Typography>
         <br />
         <br />
@@ -120,12 +143,14 @@ export const Home = () => {
             "DevOps",
             "Desarrollo móvil",
             "Bases de datos",
+            "Herramientas",
+            "Diseño"
           ]}
           tabsPanels={[
             <div className={styles.ContainerSkills} key={1}>
-              {$SKILLS.map((skill, index) => (
+              {$SKILLS_BACKEND.map((skill, index) => (
                 <CustomPaper
-                  key={index+skill.name}
+                  key={index + skill.name}
                   name={skill.name}
                   Icon={skill.Icon}
                   content={skill.description}
@@ -133,9 +158,9 @@ export const Home = () => {
               ))}
             </div>,
             <div className={styles.ContainerSkills} key={2}>
-              {$SKILLS.map((skill, index) => (
+              {$SKILLS_FRONTEND.map((skill, index) => (
                 <CustomPaper
-                  key={index+skill.name}
+                  key={index + skill.name}
                   name={skill.name}
                   Icon={skill.Icon}
                   content={skill.description}
@@ -143,9 +168,9 @@ export const Home = () => {
               ))}
             </div>,
             <div className={styles.ContainerSkills} key={3}>
-              {$SKILLS.map((skill, index) => (
+              {$SKILLS_DEVOPS.map((skill, index) => (
                 <CustomPaper
-                  key={index+skill.name}
+                  key={index + skill.name}
                   name={skill.name}
                   Icon={skill.Icon}
                   content={skill.description}
@@ -153,9 +178,9 @@ export const Home = () => {
               ))}
             </div>,
             <div className={styles.ContainerSkills} key={4}>
-              {$SKILLS.map((skill, index) => (
+              {$SKILLS_MOBILE.map((skill, index) => (
                 <CustomPaper
-                  key={index+skill.name}
+                  key={index + skill.name}
                   name={skill.name}
                   Icon={skill.Icon}
                   content={skill.description}
@@ -163,9 +188,29 @@ export const Home = () => {
               ))}
             </div>,
             <div className={styles.ContainerSkills} key={5}>
-              {$SKILLS.map((skill, index) => (
+              {$SKILLS_BD.map((skill, index) => (
                 <CustomPaper
-                  key={index+skill.name}
+                  key={index + skill.name}
+                  name={skill.name}
+                  Icon={skill.Icon}
+                  content={skill.description}
+                />
+              ))}
+            </div>,
+            <div className={styles.ContainerSkills} key={5}>
+              {$SKILLS_TOOLS.map((skill, index) => (
+                <CustomPaper
+                  key={index + skill.name}
+                  name={skill.name}
+                  Icon={skill.Icon}
+                  content={skill.description}
+                />
+              ))}
+            </div>,
+            <div className={styles.ContainerSkills} key={5}>
+              {$SKILLS_DESIGN.map((skill, index) => (
+                <CustomPaper
+                  key={index + skill.name}
                   name={skill.name}
                   Icon={skill.Icon}
                   content={skill.description}
