@@ -1,5 +1,14 @@
 .Paper
     padding: 1em
-    // margin-right: 4em
     width: 100%
     box-sizing: border-box
+    display: flex
+    flex-direction: row
+    @media screen and (min-width: 600px)
+        flex-direction: column
+.ContainerIcon
+    width: 100px
+    height: 100px
+    @media screen and (min-width: 600px)
+        width: 150px
+        height: 150px

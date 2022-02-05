@@ -4,16 +4,16 @@ import AllTheme from "./theme/AllTheme";
 import AllContext from "./context/AllContext";
 
 import "./toolbox/styles/reset.sass";
+import "./App.css";
 
 function App() {
   return (
     <div>
-      ASIS--
-    <AllContext>
-      <AllTheme>
-        <AllRoutes />
-      </AllTheme>
-    </AllContext>
+      <AllContext>
+        <AllTheme>
+          <AllRoutes />
+        </AllTheme>
+      </AllContext>
     </div>
   );
 }
