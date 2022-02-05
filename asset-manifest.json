@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/asis_melgarejo_porfolio/static/css/main.3bc50563.css",
-    "main.js": "/asis_melgarejo_porfolio/static/js/main.3a1b657f.js",
+    "main.css": "/asis_melgarejo_porfolio/static/css/main.66fb1dd8.css",
+    "main.js": "/asis_melgarejo_porfolio/static/js/main.d4a8e7d2.js",
     "static/media/profile.jpg": "/asis_melgarejo_porfolio/static/media/profile.39306e6e764f3e1f4508.jpg",
     "static/media/cms_formdata.png": "/asis_melgarejo_porfolio/static/media/cms_formdata.580482a8e68192e2aadc.png",
     "static/media/gitlab_icon.svg": "/asis_melgarejo_porfolio/static/media/gitlab_icon.640338841d983271520aa06b42a764e8.svg",
@@ -9,13 +9,15 @@
     "static/media/react_icon.svg": "/asis_melgarejo_porfolio/static/media/react_icon.e7574af26628c8d8cc52d64e015eb898.svg",
     "static/media/github_color_icon.svg": "/asis_melgarejo_porfolio/static/media/github_color_icon.d6572fca53f828e2a5a8bff0380b38c2.svg",
     "static/media/sqlserver_icon.svg": "/asis_melgarejo_porfolio/static/media/sqlserver_icon.52090d7441142f2073d31e5b82fb523e.svg",
+    "static/media/express_icon.svg": "/asis_melgarejo_porfolio/static/media/express_icon.75fff9be2f3b289ba7be1f43a08f7a4c.svg",
     "static/media/mysql_icon.svg": "/asis_melgarejo_porfolio/static/media/mysql_icon.de8aab5285d3a9df77cb81dbe9ea418a.svg",
+    "static/media/postman_icon.svg": "/asis_melgarejo_porfolio/static/media/postman_icon.e65afafee644ce9fe8a727d01b403189.svg",
     "static/media/sass_icon.svg": "/asis_melgarejo_porfolio/static/media/sass_icon.903cef0c9879296f452e2bd0364f58e9.svg",
     "static/media/postgresql_icon.svg": "/asis_melgarejo_porfolio/static/media/postgresql_icon.e512fc1c00775f2c399103a228012523.svg",
     "static/media/aws_icon.svg": "/asis_melgarejo_porfolio/static/media/aws_icon.f31b56532b86d0cc3b911589ba8dbd18.svg",
     "static/media/nodejs_icon.svg": "/asis_melgarejo_porfolio/static/media/nodejs_icon.2392983dc38f1c5a989eef634eceddbe.svg",
     "static/media/django_icon.svg": "/asis_melgarejo_porfolio/static/media/django_icon.e5f2afecfa58eefa7fcbda9dedafe86e.svg",
-    "static/media/express_icon.svg": "/asis_melgarejo_porfolio/static/media/express_icon.493a0dd08d8d77a341e2d22676607a29.svg",
+    "static/media/laravel_icon.svg": "/asis_melgarejo_porfolio/static/media/laravel_icon.ba995bd47e3a7cc141cc1c9aaa1ac583.svg",
     "static/media/golang_icon.svg": "/asis_melgarejo_porfolio/static/media/golang_icon.4a36214e2d96f3acab6ab7d3641cd408.svg",
     "static/media/csharp_icon.svg": "/asis_melgarejo_porfolio/static/media/csharp_icon.ad2ed3780f378cb4a18cc847d16d393b.svg",
     "static/media/java_icon.svg": "/asis_melgarejo_porfolio/static/media/java_icon.4d8f13d77f54fca24e4fffbda8b20ced.svg",
@@ -29,15 +31,14 @@
     "static/media/python_icon.svg": "/asis_melgarejo_porfolio/static/media/python_icon.58d5a0a7b305a106917669f9abcc4f3d.svg",
     "static/media/springboot_icon.svg": "/asis_melgarejo_porfolio/static/media/springboot_icon.001ce08ab2795e3ff693ce288b126804.svg",
     "static/media/mongodb_icon.svg": "/asis_melgarejo_porfolio/static/media/mongodb_icon.389aa18a9b02da23f02b77ddfc9d12be.svg",
+    "index.html": "/asis_melgarejo_porfolio/index.html",
     "static/media/flutter_icon.svg": "/asis_melgarejo_porfolio/static/media/flutter_icon.c0c4fc13c51655957449e765cbf038c3.svg",
     "static/media/js_icon.svg": "/asis_melgarejo_porfolio/static/media/js_icon.fabe1e9b193a5b86c7467a70ba5d736a.svg",
-    "index.html": "/asis_melgarejo_porfolio/index.html",
     "static/media/instagram_icon.svg": "/asis_melgarejo_porfolio/static/media/instagram_icon.b6beacd904f86ba6e0cb57f5b4e24eb8.svg",
     "static/media/git_icon.svg": "/asis_melgarejo_porfolio/static/media/git_icon.aeeb13ab71f0fa41e8bb99688f96cfdd.svg",
     "static/media/premiere_icon.svg": "/asis_melgarejo_porfolio/static/media/premiere_icon.698cebd5dd48902a90877f712727f8f1.svg",
     "static/media/illustrator_icon.svg": "/asis_melgarejo_porfolio/static/media/illustrator_icon.48ec6482d34d77eb33ef1e5fc018c287.svg",
     "static/media/graphql_icon.svg": "/asis_melgarejo_porfolio/static/media/graphql_icon.d15ab57ad4660e8b74f363ff0029fd07.svg",
-    "static/media/laravel_icon.svg": "/asis_melgarejo_porfolio/static/media/laravel_icon.5231364eaa0d1afdfb8feaffb9ccca8d.svg",
     "static/media/mui_icon.svg": "/asis_melgarejo_porfolio/static/media/mui_icon.8e8d37c6bebf84512bcbbc9c0c4d8a71.svg",
     "static/media/vsc_icon.svg": "/asis_melgarejo_porfolio/static/media/vsc_icon.feab1f2b5e068c7e1ab02acc59a58f61.svg",
     "static/media/ts_icon.svg": "/asis_melgarejo_porfolio/static/media/ts_icon.ced98752566ac4b3a366e8e41677cd67.svg",
@@ -46,14 +47,15 @@
     "static/media/angular_icon.svg": "/asis_melgarejo_porfolio/static/media/angular_icon.28ae4f3c6c193d04113e4767a73b86bc.svg",
     "static/media/css_icon.svg": "/asis_melgarejo_porfolio/static/media/css_icon.64fa1d1c4801d931c3717be71f6c020e.svg",
     "static/media/facebook_icon.svg": "/asis_melgarejo_porfolio/static/media/facebook_icon.bf9a8309d218ec6f4e2da6a27707d994.svg",
+    "static/media/rest_icon.svg": "/asis_melgarejo_porfolio/static/media/rest_icon.71e8050c6eb3d922604e8b22d0e62a9e.svg",
     "static/media/html_icon.svg": "/asis_melgarejo_porfolio/static/media/html_icon.8ae3d4adcd70a1028a6377697d9f33b0.svg",
     "static/media/terraform_icon.svg": "/asis_melgarejo_porfolio/static/media/terraform_icon.e06c5d2955b7dce633d07a55730375d3.svg",
     "static/media/vue_icon.svg": "/asis_melgarejo_porfolio/static/media/vue_icon.9799d923aadf448170eb5c50cb25f010.svg",
-    "main.3bc50563.css.map": "/asis_melgarejo_porfolio/static/css/main.3bc50563.css.map",
-    "main.3a1b657f.js.map": "/asis_melgarejo_porfolio/static/js/main.3a1b657f.js.map"
+    "main.66fb1dd8.css.map": "/asis_melgarejo_porfolio/static/css/main.66fb1dd8.css.map",
+    "main.d4a8e7d2.js.map": "/asis_melgarejo_porfolio/static/js/main.d4a8e7d2.js.map"
   },
   "entrypoints": [
-    "static/css/main.3bc50563.css",
-    "static/js/main.3a1b657f.js"
+    "static/css/main.66fb1dd8.css",
+    "static/js/main.d4a8e7d2.js"
   ]
 }
