@@ -84,14 +84,6 @@ const $PROJECTS = [
       "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi sed euismod ex. ",
     tags: $TAGS,
   },
-  {
-    id: 2,
-    ImgUrl: CMSFormData,
-    title: "CMS para blog de empresa minera",
-    content:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi sed euismod ex. ",
-    tags: $TAGS,
-  },
 ];
 
 export const Home = () => {
