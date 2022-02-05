@@ -176,7 +176,7 @@ export const $SKILLS_BACKEND: ISkill[] = [
   },
   {
     id: 1,
-    name: "Express.js",
+    name: "Express",
     Icon: ExpressIcon,
     category: 1,
     description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",

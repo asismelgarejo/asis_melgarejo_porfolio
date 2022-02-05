@@ -49,7 +49,7 @@ export const CardHome = () => {
         </Typography>
         <Typography component={"p"} variant={isMobile ? "h6" : "h5"}>
           Tengo más de 1 año de experiencia laboral en el entorno empresarial
-          desarrollando aplicaciones webs y móviles .
+          desarrollando aplicaciones webs y móviles.
         </Typography>
       </CardContent>
     </Paper>
