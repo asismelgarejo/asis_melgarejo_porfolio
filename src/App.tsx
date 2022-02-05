@@ -8,12 +8,12 @@ import "./toolbox/styles/reset.sass";
 function App() {
   return (
     <div>
-      ASIS
-    {/* <AllContext>
+      ASIS--
+    <AllContext>
       <AllTheme>
         <AllRoutes />
       </AllTheme>
-    </AllContext> */}
+    </AllContext>
     </div>
   );
 }
