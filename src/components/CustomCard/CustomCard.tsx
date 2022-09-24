@@ -9,12 +9,12 @@ import Chip from "@mui/material/Chip";
 import styles from "./CustomCard.module.sass";
 
 interface ITag {
-  id: number;
+  id: string;
   name: string;
 }
 
 interface CustomCardProps {
-  id: number;
+  id: string;
   ImgUrl: string;
   title: string;
   content: string;
