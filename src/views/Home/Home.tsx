@@ -14,12 +14,13 @@ import {
   $SKILLS_TOOLS,
   $SKILLS_DESIGN,
 } from "./Skills";
-import MainImage from "../../assets/profile.jpg";
+import MainImage from "../../assets/profile2.jpeg";
 import CMSFormData from "../../assets/cms_formdata.png";
 import { CustomPaper } from "./../../components/CustomPaper";
 import { CustomTabs } from "./../../components/CustomTabs";
 import { DialogImage, SnackRef } from "./../../components/DialogImage";
 import { useWindowsSize } from "../../toolbox/hooks/useWindowsSize";
+import { v4 as uuidv4 } from "uuid";
 
 import styles from "./Home.module.sass";
 
@@ -45,11 +46,11 @@ export const CardHome = () => {
           component="div"
           // className={styles.CardTitle}
         >
-          Hi, I'm Asis and I'm a Fullstack Junior Developer
+          Hi, I'm Asis and I'm a Software Developer
         </Typography>
         <Typography component={"p"} variant={isMobile ? "h6" : "h5"}>
-          Tengo más de 1 año de experiencia laboral en el entorno empresarial
-          desarrollando aplicaciones webs y móviles.
+          I have more than 1 year of work experience in the business environment
+          developing web and mobile applications.
         </Typography>
       </CardContent>
     </Paper>
@@ -58,26 +59,26 @@ export const CardHome = () => {
 
 const $TAGS = [
   {
-    id: 1,
+    id: uuidv4(),
     name: "Typescript",
   },
   {
-    id: 2,
+    id: uuidv4(),
     name: "ReactJS",
   },
   {
-    id: 3,
+    id: uuidv4(),
     name: "Laravel",
   },
   {
-    id: 4,
+    id: uuidv4(),
     name: "MySQL",
   },
 ];
 
 const $PROJECTS = [
   {
-    id: 1,
+    id: uuidv4(),
     ImgUrl: CMSFormData,
     title: "CMS para blog de empresa minera",
     content:
@@ -136,7 +137,7 @@ export const Home = () => {
             "Desarrollo móvil",
             "Bases de datos",
             "Herramientas",
-            "Diseño"
+            "Diseño",
           ]}
           tabsPanels={[
             <div className={styles.ContainerSkills} key={1}>

@@ -43,13 +43,27 @@ import { ReactComponent as AngularIcon } from "../../assets/svg/angular_icon.svg
 import { ReactComponent as FlutterIcon } from "../../assets/svg/flutter_icon.svg";
 import { ReactComponent as DartIcon } from "../../assets/svg/dart_icon.svg";
 import { ReactComponent as NextJSIcon } from "../../assets/svg/nextjs_icon.svg";
+import { ReactComponent as NestJSIcon } from "../../assets/svg/nestjs-icon.svg";
 import { ReactComponent as LaravelIcon } from "../../assets/svg/laravel_icon.svg";
 import { ReactComponent as ExpressIcon } from "../../assets/svg/express_icon.svg";
 import { ReactComponent as PostmanIcon } from "../../assets/svg/postman_icon.svg";
 import { ReactComponent as RestAPIIcon } from "../../assets/svg/rest_icon.svg";
 
+import { ReactComponent as AwsAmplifyIcon } from "../../assets/svg/aws-amplify.svg";
+import { ReactComponent as StoybookIcon } from "../../assets/svg/storybook-icon.svg";
+import { ReactComponent as GinGonicIcon } from "../../assets/svg/gin.svg";
+import { ReactComponent as StrapiIcon } from "../../assets/svg/strapi.svg";
+import { ReactComponent as GatsbyjsIcon } from "../../assets/svg/gatsbyjs-icon.svg";
+import { ReactComponent as AspNetIcon } from "../../assets/svg/dotnet-icon.svg";
+
 export {
   AngularIcon,
+  StrapiIcon,
+  AwsAmplifyIcon,
+  StoybookIcon,
+  GinGonicIcon,
+  AspNetIcon,
+  GatsbyjsIcon,
   PostmanIcon,
   DartIcon,
   NextJSIcon,
@@ -63,6 +77,7 @@ export {
   TypescriptIcon,
   SpringBootIcon,
   PythonIcon,
+  NestJSIcon,
   DjangoIcon,
   GolangIcon,
   IllustratorIcon,
